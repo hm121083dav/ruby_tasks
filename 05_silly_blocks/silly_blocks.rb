@@ -1,4 +1,4 @@
-#Реверс предложений
+#Реверс слов предложений
 def reverser
   if block_given?
     result = ''
@@ -16,7 +16,7 @@ def adder(number = 1)
   end
 end
 
-#Повторитель с заданным временем
+#Повторитель с заданным количества раз
 def repeater(number = 1)
   if block_given?
     number.times do
